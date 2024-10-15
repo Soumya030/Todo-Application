@@ -1,0 +1,174 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+a {
+    text-decoration: none;
+    color: #ddd;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Header Styles */
+header {
+    background-color: #5a5656;
+    color: #fff;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h3 {
+    font-size: 24px;
+}
+
+header ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+header ul li {
+    display: inline;
+}
+
+header ul li a {
+    color: #fff;
+    font-size: 16px;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #5a5656;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Form Styles */
+.form-container {
+    width: 50%;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    text-align: center;
+}
+
+.form-container h1 {
+    margin-bottom: 20px;
+}
+
+h2{
+    margin-left: 655px;
+
+}
+
+.form-container input[type="text"], .form-container input[type="date"] {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0; /* Adds space between fields */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: block; /* Ensures each input is on a new line */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.form-container button {
+    padding: 10px 20px;
+    background-color: #5a5656;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.form-container button:hover {
+    background-color: #5a5656
+}
+
+/* Table Styles */
+.table-container {
+    width: 80%;
+    margin: 30px auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 50px;
+}
+
+thead tr {
+    background-color: #5a5656;
+    color: white;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #5a5656;
+}
+
+td a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+td form button {
+    background-color: red;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+td form button:hover {
+    background-color: darkred;
+}
+
+/* Badge styles */
+.badge {
+    padding: 5px 10px;
+    border-radius: 4px;
+    color: white;
+    font-weight: bold;
+}
+
+.pending {
+    background-color: orange;
+}
+
+.overdue {
+    background-color: red;
+}
+.complete{
+    background-color: green;
+}
+
+/* Strike-through Completed Tasks */
+.strike {
+    text-decoration: line-through;
+    color: #5a5656;
+}
+
+
